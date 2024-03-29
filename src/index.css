@@ -1,0 +1,35 @@
+.app {
+  display: flex;
+  padding: 30px;
+  background-image: url(./images/background.png);
+  object-fit: contain;
+  width: 100vw;
+  height: 100vh;
+}
+
+.game {
+  width: 560px;
+  height: 560px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgba(255, 255, 255, 0.4);
+  border-radius: 20px;
+  margin-left: 100px;
+}
+
+.game img {
+  width: 70px;
+  height: 70px;
+}
+
+.display {
+  background-color: rgb(248, 163, 191);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: purple;
+  width: 120px;
+  height: 100px;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 3px 3px rgb(212, 158, 177);
+  margin-left: 25px;
+}

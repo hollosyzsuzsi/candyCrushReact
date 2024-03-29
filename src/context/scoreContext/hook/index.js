@@ -1,0 +1,1 @@
+export { useScoreContext } from "./useScoreContext";
